@@ -18,7 +18,7 @@ module.exports = {
 
         let embed = new MessageEmbed()
         .setAuthor("Commands of "+client.user.username, "https://cdn.discordapp.com/attachments/807523516915384320/809777982930681876/ezgif.com-gif-maker.gif")
-        .setColor("RED")
+        .setColor("#00FFFF")
         .setDescription(allcmds)
         .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | tayshi Labs`)
 
